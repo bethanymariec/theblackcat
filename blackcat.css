@@ -1,0 +1,155 @@
+
+header {
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #ffffff;
+}
+
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: rgb(176, 154, 56);
+  text-decoration:underline;
+}
+
+
+footer{
+margin-top:auto;
+color:white;
+background-color: rgb(176, 154, 56);
+width:100%;
+}
+
+.search{
+text-align: right;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+p.indent{
+text-indent: 30px;
+}
+
+.hero{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/pexels-photo-1715092.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1{
+  font-size: 5em;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.hero p{
+color: white;
+}
+.GFG{
+display:block;
+width: 200px;
+padding: 1em;
+margin-top: 50 px;
+margin-left: auto;
+margin-right: auto;
+color: pink;
+background-color: black;
+font: 1.5 em;
+border: 3px solid white;
+border-radius: 20 px;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+}
+
+main {
+    color: black;
+    text-align: center;
+}
+a{
+color:white;
+text-decoration: none;
+}
+a:hover{
+color:orange;
+}
+
+.full-height-history {
+    min-height: 100%;
+    background-image: url(images/White-Map-PNG-Free-Download.png);
+    color:white;
+    display: flex;
+  }
+
+  .full-height-biology {
+    color:white;
+    background-image:url("images/dna.png");
+    min-height:100%;
+    display: flex;
+  }
+  .full-height-behavior {
+    min-height: 100%;
+    background-image: url(images/cat-behavior.jpg);
+    color:white;
+    display: flex;
+  }
+
+  .full-height-diet {
+    min-height: 100%;
+    background-image: url(images/29d.jpg);
+    color:white;
+    display: flex;
+  }
+  .full-height-adoption {
+    min-height: 100%;
+    background-color:blue;
+    color:white;
+    display: flex;
+  }
+  .full-height-donate {
+    min-height: 100%;
+    background-color: pink;
+    color:white;
+    display: flex;
+  }
+
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
